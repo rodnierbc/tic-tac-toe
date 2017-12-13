@@ -1,0 +1,61 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  background-color: lightgray;
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: darkgray;
+}
+
+.two {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: darkgray;
+}
+
+.three {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: darkgray;
+}
+
+.four {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: darkgray;
+}
+
+.five {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: darkgray;
+}
+
+.six {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: darkgray;
+}
+
+.seven {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: darkgray;
+}
+
+.eight {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: darkgray;
+}
+
+.nine {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: darkgray;
+}
